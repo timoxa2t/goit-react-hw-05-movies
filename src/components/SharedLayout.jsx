@@ -12,8 +12,8 @@ export default function SharedLayout(){
     return (
         <Container>
             <nav className={styles["nav_bar"]}>
-                <StyledNav className={styles["nav_link"]} to="/">Головна</StyledNav> 
-                <StyledNav className={styles["nav_link"]} to="/movies">Фільми</StyledNav> 
+                <StyledNav className={styles["nav_link"]} to="/goit-react-hw-05-movies/">Головна</StyledNav> 
+                <StyledNav className={styles["nav_link"]} to="/goit-react-hw-05-movies/movies">Фільми</StyledNav> 
             </nav>
             <Suspense fallback={
                 <Loading />
